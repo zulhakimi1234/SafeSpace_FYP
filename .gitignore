@@ -1,0 +1,30 @@
+# Environment / secrets
+**/.env
+**/.env.*
+!**/.env.example
+**/*.jks
+**/*.keystore
+**/key.properties
+
+# Laravel
+**/vendor/
+**/node_modules/
+**/storage/logs/*
+**/storage/framework/cache/*
+**/storage/framework/sessions/*
+**/storage/framework/views/*
+
+# Flutter
+**/build/
+**/.dart_tool/
+**/.flutter-plugins-dependencies
+**/.gradle/
+**/android/local.properties
+
+# Editor
+**/.idea/
+**/.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
